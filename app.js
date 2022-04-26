@@ -7,34 +7,12 @@ const h5box= document.querySelector("h5");
 const spanId= document.querySelectorAll("span");
 
 
-function openP(){
+
+function basla(){
   pTag.classList.toggle("p2");
-     
+  h1box.classList.toggle("h1box"); 
+  h2box.classList.toggle("h2box");
+  h3box.classList.toggle("h3box");
+  h4box.classList.toggle("h4box");
+  h5box.classList.toggle("h5box");
 }
-function openH1(){
-    h1box.classList.toggle("h1box");
-        
-  }
-  function openH2(){
-    h2box.classList.toggle("h2box");
-       
-  
-  }
-  function openH3(){
-    h3box.classList.toggle("h3box");
-   
-   
-  
-  }
-  function openH4(){
-    h4box.classList.toggle("h4box");
-    
-   
-  
-  }
-  function openH5(){
-    h5box.classList.toggle("h5box");
-  
-  
-  
-  }
