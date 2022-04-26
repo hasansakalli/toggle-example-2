@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  display: grid;
+  place-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #06234e;
+}
+.container {
+  display: grid;
+  place-items: center;
+
+  width: 70vw;
+  height: 95vh;
+  border-radius: 10px;
+
+  background-color:#fff;
+  padding: 1rem 5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.container > * {
+  margin-bottom: 0.3rem;
+}
+
+.p2 {
+  width: 650px;
+}
+
+.h1box {
+  width: 560px;
+}
+
+.h2box {
+  width: 490px;
+}
+
+.h3box {
+  width: 470px;
+}
+
+.h4box {
+  width: 350px;
+}
+
+.h5box {
+  width: 300px;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  height: 40px;
+  width: 110px;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  color: white;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 0.8rem;
+  border-radius: 10px;
+  transition: all 1500ms;
+  cursor: pointer;
+  background-color: #1976d2;
+  background: linear-gradient(145deg, #0d47a1, #42a5f5);
+  color: #fff;
+}
+
+.p2,
+.h1box,
+.h2box,
+.h3box,
+.h4box,
+.h5box {
+  color: rgb(249, 247, 246);
+  background-color: #1976d2;
+  background: linear-gradient(145deg, #0d47a1, #42a5f5);
+
+  border-top-right-radius: 10px;
+  transition: all 1500ms;
+  border-bottom-right-radius: 10px;
+  height: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    cursor: pointer;
+}
+
+.numberInfo {
+  display: flex;
+  align-items: baseline;
+}
+.orta {
+  font-size: 1.3rem;
+  padding: 1rem;
+  color: #a10d0d;
+  font-weight: bold;
+  opacity: 1;
+}
+span {
+  font-size: 1.2rem;
+  padding: 1rem;
+  color: #a10d0d;
+  font-weight: bold;
+}
+.text {
+  width: 70%;
+  text-align: center;
+}
+#titel {
+  font-size: 1.3rem;
+}
+#content {
+  font-size: 0.7rem;
+}
+#quelle{
+    margin-top: 1rem;
+}
